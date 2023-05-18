@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.gallery_imagen-container {
+  border: 1px solid;
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/image-product-1.jpg");
+  background-position-y: -35px;
+  background-size: cover;
+}
+.gallery_previous {
+  background-color: hsl(0, 0%, 100%);
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 170px;
+  left: 15px;
+}
+.gallery_previous:hover {
+  cursor: pointer;
+}
+.gallery_next {
+  background-color: hsl(0, 0%, 100%);
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 170px;
+  left: 320px;
+}
+.gallery_next:hover {
+  cursor: pointer;
+}
+.gallery_thumnails {
+  display: none;
+}
+@media (min-width: 1115px) {
+  .gallery_thumnails {
+    display: block;
+  }
+}/*# sourceMappingURL=gallery.css.map */
